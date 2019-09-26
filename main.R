@@ -1,4 +1,4 @@
-# Geoscripting 2020 
+# Geoscripting 2020
 # Lesson 1, Exercise 1
 # Age calculator
 # TEAMNAME
@@ -8,7 +8,7 @@
 # Import packages
 
 # Source functions
-source('R/ageCalculator')
+source('R/ageCalculator.R')
 
 # Demonstrate function
 
