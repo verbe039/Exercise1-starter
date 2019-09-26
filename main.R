@@ -12,8 +12,11 @@ source('R/ageCalculator.R')
 
 # Demonstrate function
 
+ageCalculator(1977)
+
 # Demonstrate error handling
 
-
-
+ageCalculator('1990')
+ageCalculator('A')
+ageCalculator(19900)
 
