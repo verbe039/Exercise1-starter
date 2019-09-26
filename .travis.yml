@@ -3,11 +3,13 @@ matrix:
   - name: "Git use and project structure"
     language: bash
     os: linux
+    dist: bionic
     script:
     - bash ./test/git_use.sh
 
   - name: "R code tests"
     language: r 
     os: linux
+    dist: bionic
     script:
     - Rscript ./test/test.R
